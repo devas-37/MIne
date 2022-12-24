@@ -1,0 +1,15 @@
+{
+  "name": "console-v",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -q -x \"clear && node index.js\"",
+    "help":"nodemon -h"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
