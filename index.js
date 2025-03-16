@@ -1,5 +1,5 @@
-const ROWS = 32;
-const COLS = 32;
+const ROWS = 16;
+const COLS = 16;
 const BOMBS = Math.floor(ROWS * COLS * 0.2);
 const BOMB_CHAR = "💣";
 const SIZE = 40;
@@ -76,7 +76,7 @@ const cells = Array.from({ length: ROWS }).map((_, rowIndex) =>
       number: 0,
       isOpened: false,
     };
-  })
+  }),
 );
 console.timeEnd();
 const getRandomCord = () => {
